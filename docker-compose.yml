@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  bitcoind:
+    build: https://github.com/kylemanna/docker-bitcoind.git
+    volumes:
+      - ./bitcoind-data:/bitcoin/.bitcoin
+      - ./bitcoin.conf:/bitcoin/.bitcoin/bitcoin.conf
+    ports:
+      - 8333:8333
