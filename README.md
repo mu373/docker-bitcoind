@@ -7,16 +7,16 @@ cp bitcoin.conf.sample bitcoin.conf
 vim bitcoin.conf # Edit the configuration to fit your needs
 ```
 
-Start container
+Start the container
 ```sh
-docker-compose up -d
+docker compose up -d
 ```
 
-Access shell
+Access the shell inside the container
 ```sh
 # In host
-$ docker ps
-$ docker exec -it container_id bash
+docker ps # Check container id
+docker exec -it container_id bash
 ```
 
 See logs
