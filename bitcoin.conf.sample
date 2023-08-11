@@ -1,0 +1,15 @@
+
+# server=1 tells Bitcoin-Qt and bitcoind to accept JSON-RPC commands
+server=1
+rpcuser=yourusername
+rpcpassword=yourpassword
+
+# Enable index for transactions (required for mempool)
+txindex=1
+
+# Use testnet
+# testnet=3
+
+# Use port 8332 for testnet
+# [test]
+# rpcport=8332
