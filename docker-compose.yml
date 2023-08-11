@@ -7,3 +7,8 @@ services:
       - ./bitcoin.conf:/bitcoin/.bitcoin/bitcoin.conf
     ports:
       - 8333:8333
+
+networks:
+  default:
+    name: bitcoin-nw
+    driver: bridge
