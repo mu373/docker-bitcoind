@@ -1,6 +1,12 @@
 # docker-bitcoind
 
 ## Setup
+Prepare configuration for `bitcoind`
+```sh
+cp bitcoin.conf.sample bitcoin.conf
+vim bitcoin.conf # Edit the configuration to fit your needs
+```
+
 Start container
 ```sh
 docker-compose up -d
