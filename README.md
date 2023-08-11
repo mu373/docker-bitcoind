@@ -7,7 +7,7 @@ Run bitcoind on Docker.
 ## Setup
 Prepare configuration for `bitcoind`
 ```sh
-cp bitcoin.conf.sample bitcoin.conf
+cp bitcoin.sample.conf bitcoin.conf
 vim bitcoin.conf # Edit the configuration to fit your needs
 ```
 
