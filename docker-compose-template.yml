@@ -3,6 +3,7 @@ services:
   bitcoind:
     container_name: bitcoind
     build: https://github.com/kylemanna/docker-bitcoind.git
+    image: mu373/docker-bitcoind
     volumes:
       - ./bitcoind-data:/bitcoin/.bitcoin #This is where the blockchain will be saved. Requires approximately 580GB as of August 2023. You can use external drives too! (e.g. /mnt/disk1/bitcoind)
       - ./bitcoin.conf:/bitcoin/.bitcoin/bitcoin.conf
