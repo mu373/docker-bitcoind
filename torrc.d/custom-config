@@ -1,0 +1,7 @@
+RunAsDaemon 1
+
+# You can set custom torrc config here
+
+# For example excluding nodes from specific countries:
+# StrictNodes 1
+# ExcludeNodes {iso3166-1 alpha-2 country code}
