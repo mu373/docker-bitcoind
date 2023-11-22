@@ -1,7 +1,7 @@
 # docker-bitcoind
 
 Run bitcoind with tor on Docker.
-- The base image is [mu373/docker-bitcoind](https://github.com/mu373/docker-bitcoind-image)
+- The base image is [mu373/docker-bitcoind-image](https://github.com/mu373/docker-bitcoind-image)
     - This is a fork of [kylemanna/docker-bitcoind](https://github.com/kylemanna/docker-bitcoind) with tor preinstalled.
 - Works well with mempool running in separate containers: [mu373/docker-mempool](https://github.com/mu373/docker-mempool).
 
