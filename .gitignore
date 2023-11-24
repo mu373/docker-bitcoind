@@ -1,3 +1,4 @@
 bitcoind-data/
 bitcoin.conf
 docker-compose.yml
+torrc.d/my-custom-config
